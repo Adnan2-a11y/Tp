@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Scholar Teacher Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <img src="images/logo.jpg" alt="E-Scholar Logo" class="logo-img">
+      E-Scholar
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="teachers.html">Teachers</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="workshops.html">Workshops</a></li>
+      </ul>
+    </nav>
+    <button class="login-btn">Login</button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <img src="images/bg.jpg" alt="Banner" class="hero-bg">
+    <div class="hero-content">
+      <h1>ADMISSION SPECIAL</h1>
+      <h2>TEACHER REPRESENT</h2>
+      <p>Medical + Engineering + University Admission | Learn from the best mentors</p>
+    </div>
+  </section>
+
+  <!-- Teacher Panel -->
+  <section class="teachers">
+    <h2>Top Teachers</h2>
+    <div class="teacher-grid">
+      <!-- Teacher Card -->
+      <div class="teacher-card" data-name="Hasnine Rafi" data-subject="Biology - RMC" data-desc="Specialist in Medical & University admission preparation, covering Biology in depth.">
+        <img src="images/teacher1.jpg" alt="Hasnine Rafi">
+        <div class="teacher-info">
+          <span class="teacher-tag">MEDICAL+UNIVERSITY</span>
+          <h3>Hasnine Rafi</h3>
+          <span class="teacher-subject">Biology - RMC</span>
+          <p>Medical + University Specialist</p>
+        </div>
+      </div>
+
+      <div class="teacher-card" data-name="Sahin Alom" data-subject="Chemistry" data-desc="Expert in Chemistry with 7+ years of experience in Admission Test guidance.">
+        <img src="images/teacher2.jpg" alt="Sahin Alom">
+        <div class="teacher-info">
+          <span class="teacher-tag">MEDICAL+UNIVERSITY</span>
+          <h3>Sahin Alom</h3>
+          <span class="teacher-subject">Chemistry</span>
+          <p>Medical + University Specialist</p>
+        </div>
+      </div>
+
+      <div class="teacher-card" data-name="Ataur Rahman" data-subject="Biology" data-desc="Meet Ataur Rahman, from Rajshahi Medical College , has joined E-Scholar as a Biology Teacher.">
+        <img src="images/teacher3.jpg" alt="Ataur Rahman">
+        <div class="teacher-info">
+          <span class="teacher-tag">MEDICAL+UNIVERSITY</span>
+          <h3>Ataur Rahman</h3>
+          <span class="teacher-subject">Biology</span>
+          <p>Medical + University Specialist</p>
+        </div>
+      </div>
+      <div class="teacher-card" data-name="Khalid Mahmud" data-subject="Physics" data-desc="Meet Khalid Mahmud from RUET has now joined us as a PHYSICS Teacher">
+        <img src="images/teacher4.jpg" alt="Khalid Mahmud">
+        <div class="teacher-info">
+          <span class="teacher-tag">Engineering+UNIVERSITY</span>
+          <h3>Khalid Mahmud</h3>
+          <span class="teacher-subject">Physics</span>
+          <p>Engineering + University Specialist</p>
+        </div>
+      </div>
+
+      <div class="teacher-card" data-name="Engineering" data-subject="Physics" data-desc="Meet Ashif Arafat Shitul from RUET has now joined us as a Highermath Teacher">
+        <img src="images/teacher5.jpg" alt="Ashif Arafat Shitul">
+        <div class="teacher-info">
+          <span class="teacher-tag">ENGINEERING+UNIVERSITY</span>
+          <h3>Ashif Arafat Shitul</h3>
+          <span class="teacher-subject">Physics</span>
+          <p>Engineering + University Specialist</p>
+        </div>
+      </div>
+
+      <div class="teacher-card" data-name="Abrar Mahir" data-subject="Zoology" data-desc="Meet Abrar Mahir, from @Rajshahi Medical College , who has joined E-Scholar as a Zoology Teacher.">
+        <img src="images/teacher6.jpg" alt="Abrar Mahir">
+        <div class="teacher-info">
+          <span class="teacher-tag">MEDICAL+UNIVERSITY</span>
+          <h3>Abrar Mahir</h3>
+          <span class="teacher-subject">Zoology</span>
+          <p>Medical + University Specialist</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal" id="teacherModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img id="modalImg" src="" alt="">
+      <h3 id="modalName"></h3>
+      <h4 id="modalSubject"></h4>
+      <p id="modalDesc"></p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 E-Scholar. All rights reserved.</p>
+    <div class="footer-contact">
+      <span>📞 +880 1603-391381</span>
+      <span> | </span>
+      <span>📱 @escholarplatform</span>
+      <span> | </span>
+      <a href="https://www.facebook.com/profile.php?id=61572521177101" target="_blank" class="footer-link">Facebook Page</a>
+      <span> | </span>
+      <a href="https://youtube.com/@escholarplatform" target="_blank" class="footer-link">YouTube Channel</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
